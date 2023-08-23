@@ -39,15 +39,15 @@ module data_mux_tb;
     DS1 = 8'd3;
    	DS2 = 8'd50;
    	DS3 = 8'd98;
-   #(period/2)
+   #(period/3)
     DS1 = 8'd6;
    	DS2 = 8'd53;
    	DS3 = 8'd100;
-   #(period/2)
+   #(period/3)
     DS1 = 8'd9;
    	DS2 = 8'd55;
    	DS3 = 8'd120;
-   #(period/2)
+   #(period/3)
    $finish;
  end
   
